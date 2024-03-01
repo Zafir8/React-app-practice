@@ -5,6 +5,7 @@ import Card from "./components/Card.jsx"
 import Button from "./components//Button/Button.jsx"
 import Button2 from "./components/Button2.jsx"
 import Students from "./components/Students.jsx"
+import UserGreeting from "./components/UserGreeting.jsx"
 
 
 function App() {  // app is the parent component
@@ -17,6 +18,8 @@ function App() {  // app is the parent component
     <Button2 />
     <Students name="John Doe" age="25" course="React" isStudent={true} />
     <Students/>
+    <UserGreeting isLoggedIn={true} />
+
 
 
     <Footer />
