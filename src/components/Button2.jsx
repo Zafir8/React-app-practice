@@ -1,5 +1,17 @@
 
 function Button2() {
+
+  const clickHandler = () => {
+    console.log("Button2 clicked");
+  }
+
+  const clickHandler2 = (name) => {
+    console.log("Button2 clicked", name);
+  }
+
+
+
+
     const buttonStyle = {
         backgroundColor: "blue",
         color: "white",
@@ -12,7 +24,7 @@ function Button2() {
 
 
 
-  return <button style={buttonStyle}>Button2</button>;
+  return <button onClick={clickHandler} style={buttonStyle}>Button2</button>;
 }
 
 export default Button2;

@@ -16,7 +16,7 @@ function App() {  // app is the parent component
     <Card />
     <Button />
     <Button2 />
-    <Students name="John Doe" age="25" course="React" isStudent={true} />
+    <Students name="John Doe" age={25} course="React" isStudent={true} />
     <Students/>
     <UserGreeting isLoggedIn={true} />
 
