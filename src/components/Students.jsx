@@ -20,5 +20,11 @@ Students.propTypes = {
     course: PropTypes.string.isRequired,
 };
 
+Students.defaultProps = {
+    name: "John Doe",
+    age: 20,
+    course: "React",
+    isStudent: false,
+};
 
 export default Students;

@@ -16,6 +16,7 @@ function App() {  // app is the parent component
     <Button />
     <Button2 />
     <Students name="John Doe" age="25" course="React" isStudent={true} />
+    <Students/>
 
 
     <Footer />
