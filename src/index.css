@@ -96,3 +96,15 @@ button:focus-visible {
   top: 48%;
 
 }
+
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6em;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  transition: top 0.25s;
+  
+}

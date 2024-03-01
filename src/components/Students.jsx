@@ -2,7 +2,7 @@
 
 function Students(props) {
     return (
-        <div>
+        <div className="students">
             <h1>Students</h1>
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
