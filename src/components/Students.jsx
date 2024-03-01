@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 // components/Students.jsx
 
 function Students(props) {
@@ -7,9 +9,16 @@ function Students(props) {
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
             <p>Course: {props.course}</p>
+            <p>Student: {props.isStudent ? "Yes" : "No"}</p>
         </div>
     );
 }
+
+Students.propTypes = {
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
+    course: PropTypes.string.isRequired,
+};
 
 
 export default Students;
